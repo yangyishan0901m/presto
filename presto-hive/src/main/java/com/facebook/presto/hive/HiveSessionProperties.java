@@ -40,6 +40,7 @@ public final class HiveSessionProperties
     private static final String RCFILE_OPTIMIZED_READER_ENABLED = "rcfile_optimized_reader_enabled";
     private static final String RCFILE_OPTIMIZED_WRITER_ENABLED = "rcfile_optimized_writer_enabled";
     private static final String RCFILE_OPTIMIZED_WRITER_VALIDATE = "rcfile_optimized_writer_validate";
+    private static final String HIVE_EXTERNAL_TABLE_WRITABLE = "hive_external_table_writable";
 
     private final List<PropertyMetadata<?>> sessionProperties;
 
